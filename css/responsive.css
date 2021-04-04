@@ -1,0 +1,134 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mainmenu ul li {
+        padding-left: 58px;
+    }
+
+    .single-blog-item h3 {
+        font-size: 26px;
+    }
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.mainmenu ul li {
+    padding-left: 28px;
+}
+
+
+.footer-area ul li a {
+    font-size: 13px;
+}
+
+.footer-right {
+    font-size: 13px;
+}
+
+.single-blog-item h3 {
+    font-size: 25px;
+}
+
+.newsletter-form h3 {
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+a.load-more-btn {
+    font-size: 18px;
+}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .footer-area ul li a {
+        font-size: 13px;
+    }
+
+    .logo {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .mainmenu li a {
+        padding: 30px 0;
+        font-size: 14px;
+    }
+    .mainmenu ul li {
+        padding-left: 0;
+        padding: 28px;
+    }
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media  (max-width: 575px) {
+
+  
+
+    .single-blog-item h3 {
+        font-size: 24px;
+    }
+    .newsletter-form h3 {
+        margin-bottom: 22px;
+        font-size: 30px;
+    }
+
+    .footer-right {
+        text-align: center;
+    }
+
+    .footer-area ul{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .mainmenu ul{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainmenu ul li {
+        padding-left: 0;
+        padding: 0 12px;
+    }
+
+    .mainmenu li a {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    p.blog-meta a {
+        font-size: 13px;
+    }
+
+    a.blog-read-more-btn {
+        font-size: 13px;
+    }
+    a.load-more-btn {
+        font-size: 16px;
+    }
+
+    .footer-right {
+        font-size: 13px;
+    }
+    
+
+
+
+
+}
